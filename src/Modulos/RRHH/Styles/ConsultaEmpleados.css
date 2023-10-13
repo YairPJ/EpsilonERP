@@ -1,0 +1,16 @@
+.body{
+    padding: 30px;
+}
+
+.titlePage{
+    width: 100%;
+    text-align: center;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkgray;
+}
+
+.table-data{
+    width: 100%;
+    align-items: center;
+}

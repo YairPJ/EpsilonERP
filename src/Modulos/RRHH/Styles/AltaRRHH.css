@@ -1,0 +1,12 @@
+.body{
+    width: 100%;
+    padding: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+}
+
+.body h1{
+    font-size: medium;
+    text-align: center;
+    width: 100%;
+}

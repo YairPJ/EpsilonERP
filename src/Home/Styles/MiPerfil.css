@@ -1,0 +1,37 @@
+.body{
+    width: 100%;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+.general_information {
+    width: 400px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+  }
+.perfilImage{
+    width: 200px;
+    border-radius: 100%;
+}
+
+.datosPersonales {
+    margin-top: 30px; /* Espacio entre la imagen y los datos */
+    text-align:justify; /* Alineación del texto en el centro */
+  }
+
+  @media screen and (max-width: 768px) {
+    .body{
+        padding: 1px;
+        margin-top: 10px;
+    }
+    .general_information {
+      width: 100%; /* Utiliza el ancho completo del dispositivo móvil */
+      padding: 0; /* Elimina el padding para aprovechar el espacio */
+    }
+  
+    .datosPersonales {
+      margin-top: 5px; /* Espacio de separación más reducido en dispositivos móviles */
+    }
+  }

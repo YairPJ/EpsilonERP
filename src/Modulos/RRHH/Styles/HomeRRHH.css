@@ -1,0 +1,15 @@
+.body {
+    width: 100%;
+    padding: 50px;
+    height: 100px;
+  }
+  
+  .menuOptions {
+    background-color: rgb(24, 118, 210);
+  }
+  
+  .optionsContainer {
+    display: flex;
+    gap: 20px; /* Espacio entre los componentes Options */
+  }
+  
