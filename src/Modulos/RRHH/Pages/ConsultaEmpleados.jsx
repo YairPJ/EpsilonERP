@@ -8,6 +8,7 @@ import { startConsultEmpleados } from '../../../store/erpApp/Thunks';
 import { LinearProgress } from '@mui/material';
 
 const columns = [
+  { field: 'id', headerName: 'No. Empleado', width: 160},
   { field: 'name', headerName: 'Nombre(s)', width: 200 },
   { field: 'lastName', headerName: 'Apellido Paterno', width: 200 },
   { field: 'lastLastName', headerName: 'Apellido Materno', width: 200 },
@@ -29,7 +30,7 @@ export const ConsultaEmpleados = () => {
       setdataEmpleados(empleados);
       setisLoading(false);
     });
-  }, [dispatch]); // Agrega [dispatch, empleados] como dependencias del efecto
+  }, [dataEmpleados]); // Agrega [dispatch, empleados] como dependencias del efecto
 
   const rows = dataEmpleados.map((empleado) => ({
     id: empleado.id,
